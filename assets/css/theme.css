@@ -77,8 +77,14 @@ header
 .main-header{
     position: relative;
 }
-.twlf-logo {
+.twlf-logo.desktop {
     position: relative;
+    width: 18%;
+}
+.twlf-logo.desktop img {
+    position: absolute;
+    bottom: -99px;
+    height: 160px;
 }
 .nav-bar{
     position: sticky;

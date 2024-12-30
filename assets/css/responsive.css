@@ -29,6 +29,10 @@
     .navbar-list{
         padding: 0;
     }
+    .twlf-logo.desktop img {
+        bottom: -82px;
+        height: 107px;
+    }
     .twlf-logo img {
         max-width: 85%;
         padding: 15px 0px;
@@ -116,6 +120,9 @@
 /*laptop < 1400*/
 @media (max-width: 1400px) {
     /*nav*/
+    .twlf-logo.desktop img {
+        bottom: -67px;
+    }
     .twlf-logo img{
         padding: 0;
     }
@@ -234,7 +241,7 @@
 @media (max-width: 1024px) {
     /*common*/
     .twlf_common{
-        padding: 0 50px;
+        padding: 15px 50px;
     }
     .twlf_common-left{
         padding-left: 50px;
@@ -265,6 +272,9 @@
     }
     .navbar-list{
         padding: 0;
+    }
+    .twlf-logo.desktop img {
+        bottom: -82px;
     }
     .twlf-logo img {
         max-width: 85%;
