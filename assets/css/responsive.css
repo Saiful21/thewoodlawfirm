@@ -1,0 +1,930 @@
+
+/*4k reulation fix*/
+@media (min-width: 1650px){
+    /*galary*/
+    .twlf-gallery{
+        column-gap: 50px;
+    }
+    .g-item{
+        width: auto;
+    }
+}
+/*desktop < 1500*/
+@media (max-width: 1600px) {
+    /*common*/
+    .twlf-pana-left h2.twlf-common-title,
+    .twfl-cd-pratice h2.twlf-common-title,
+    .twlf_choose-head h2.twlf-common-title,
+    .twlf-left-client-say h2,.twlf_blog-top h2.twlf-common-title,.get-consul h2{
+        font-size: 64px;
+        line-height: 65px;
+    }
+    .twlf-content h3{
+        width: auto;
+    }
+    /*nav*/
+    .nav-bar{
+        flex-wrap: inherit;
+    }
+    .navbar-list{
+        padding: 0;
+    }
+    .twlf-logo img {
+        max-width: 85%;
+        padding: 15px 0px;
+    }
+    .nav-bar .call-now p {
+        font-size: 14px;
+        line-height: 15px;
+    }
+    .nav-bar .call-now a{
+        font-size: 22px;
+        line-height: 25px;
+    }
+    /*header down*/
+    .twlf-content h2.twlf-common-title{
+        font-size: 70px;
+        line-height: 72px;
+    }
+    /*panaroma*/
+    .twfl-cd-pratice h2.twlf-common-title{
+        width: 45%;
+    }
+    .twlf-pana-left p {
+        width: 90%;
+    }
+    /*criminal*/
+    .twlf-criminal-area{
+        padding-bottom: 0;
+    }
+    .twlf-gallery{
+        column-gap: 60px;
+    }
+    .g-item {
+        width: 400px;
+        margin-bottom: 20px;
+    }
+    .g-cta a{
+        font-size: 30px;
+    }
+    /*consultation*/
+    .call-now.free-call a {
+        font-size: 40px;
+        line-height: 45px;
+    }
+    /*why-choose-us*/
+    .twlf-support .left h3{
+        font-size: 40px;
+    }
+    /*core-client*/
+    .twlf-left-client-say p{
+        width: 100%;
+    }
+    /*blog*/
+    .blog-content{
+        padding: 20px;
+    }
+    .blog-thumb{
+        height: auto;
+    }
+    .twlf_blog-box h2 {
+        font-size: 36px;
+        line-height: 50px;
+    }
+    .view-btn a {
+        font-size: 30px;
+        padding: 18px 25px;
+    }
+    /*address map*/
+    .address-list h3{
+        font-size: 42px;
+        line-height: 45px;
+    }
+    .address-list address{
+        font-size: 15px;
+        line-height: 25px;
+        width: 100%;
+    }
+    .address-list h4{
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .address-list a.btn-dir{
+        font-size: 13px;
+    }
+}
+/*laptop < 1400*/
+@media (max-width: 1400px) {
+    /*nav*/
+    .twlf-logo img{
+        padding: 0;
+    }
+    /*header down*/
+    .twlf-content h2.twlf-common-title {
+        font-size: 55px;
+        line-height: 60px;
+    }
+    .twlf-content p{
+        width: 114%;
+    }
+    /*panaroma*/
+    .twlf-pana-left h2.twlf-common-title{
+        font-size: 64px;
+        line-height: 70px;
+        margin-bottom: 15px;
+    }
+    .twlf-pana-left blockquote{
+        font-size: 25px;
+        line-height: 30px;
+        width: 90%;
+    }
+    .twlf-pana-left p {
+        width: 96%;
+    }
+    /*criminal defense*/
+    .g-item {
+        width: 370px;
+    }
+    /*address map*/
+    .address-list h3{
+        font-size: 40px;
+        line-height: 45px;
+    }
+    .address-list address{
+        font-size: 14px;
+        line-height: 24px;
+        width: 100%;
+    }
+    .address-list h4{
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .address-list a.btn-dir{
+        font-size: 14px;
+        line-height: 19px;
+        padding: 12px 12px;
+    }
+}
+/*laptop < 1366*/
+@media (max-width: 1366px) {
+    /*nav*/
+    .twlf-logo img{
+        padding: 0;
+    }
+    /*header down*/
+    .twlf-content h3 {
+        width: 160%;
+    }
+    .twlf-content h2.twlf-common-title {
+        font-size: 47px;
+        line-height: 50px;
+        width: 100%;
+    }
+    .twlf-content p{
+        width: 168%;
+    }
+    .twlf-content .call-btn a{
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .soc-profile{
+        padding-top: 290px;
+    }
+    .soc-profile::before{
+        height: 200px;
+    }
+    /*panaroma*/
+    .twlf-pana-left h2.twlf-common-title{
+        font-size: 47px;
+        line-height: 48px;
+        margin-bottom: 15px;
+    }
+    .twlf-pana-left blockquote{
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .twlf-pana-left p {
+        width: 98%;
+    }
+    /*criminal defense*/
+    .g-item {
+        width: 335px;
+    }
+    /*address map*/
+    .address-list h3{
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .address-list address{
+        font-size: 12px;
+        line-height: 22px;
+        width: 100%;
+    }
+    .address-list h4{
+        font-size: 12px;
+        line-height: 24px;
+    }
+    .address-list a.btn-dir{
+        font-size: 11px;
+        line-height: 19px;
+        padding: 12px;
+    }
+}
+/*tab < 1024*/
+@media (max-width: 1024px) {
+    /*common*/
+    .twlf_common{
+        padding: 0 50px;
+    }
+    .twlf_common-left{
+        padding-left: 50px;
+    }
+    .twlf_common-m{
+        margin: 0 50px;
+    }
+    .twlf-panaroma,.twlf_header-down{
+        flex-wrap: wrap;
+    }
+    .twlf-pana-left h2.twlf-common-title,
+    .twfl-cd-pratice h2.twlf-common-title,
+    .twlf_choose-head h2.twlf-common-title{
+        font-size: 85px;
+        line-height: 96px;
+        text-align: center;
+        width: 100%;
+    }
+    .twlf-pana-left p,.twfl-cd-pratice p,
+    .twlf_choose-head p{
+        width: auto;
+        max-width: 100%;
+        margin: 0 auto 40px;
+    }
+    /*nav*/
+    .nav-bar{
+        flex-wrap: inherit;
+    }
+    .navbar-list{
+        padding: 0;
+    }
+    .twlf-logo img {
+        max-width: 85%;
+        padding: 15px 0px;
+    }
+    .nav-bar .call-now p {
+        font-size: 14px;
+        line-height: 15px;
+    }
+    .nav-bar .call-now a{
+        font-size: 22px;
+        line-height: 25px;
+    }
+    /*header down*/
+    .twlf_header-down{
+        text-align: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .twlf-social p{
+        left: 0;
+        transform: none;
+    }
+    .twlf-social p{
+        margin-top: 35px;
+    }
+    .soc-profile{
+        padding: 0;
+        flex-direction: row;
+    }
+    .soc-profile a {
+        margin: 0 15px;
+    }
+    .soc-profile::before{
+        display: none;
+    }
+    .twlf-content h3{
+        font-size: 28px;
+        line-height: 32px;
+        width: auto;
+    }
+    .twlf-content h2.twlf-common-title{
+        font-size: 85px;
+        line-height: 96px;
+        width: auto;
+    }
+    .twlf-content p{
+        width: auto;
+    }
+    .twlf_header-down::after{
+        display: none;
+    }
+    .twlf-profile img{
+        max-width: 100%;
+    }
+    /*twlf-panaroma*/
+    .twlf-panaroma{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .twlf-pana-left blockquote{
+        max-width: 70%;
+        text-align: center;
+        width: auto;
+        margin: 0 auto 30px;
+    }
+    .twlf-pana-left blockquote::before{
+        display: none;
+    }
+    .twlf-pana-right{
+        margin: 0 auto;
+    }
+    /*criminal-area*/
+    .twfl-cd-pratice{
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 30px 0;
+    }
+    .twfl-cd-pratice h2.twlf-common-title{
+        width: auto;
+    }
+    .twlf-gallery{
+        columns: 2;
+        padding-top: 0;
+        margin-left: 30px;
+        column-gap: 13px;
+    }
+    .g-item{
+        width: 415px;
+    }
+    /*consultation*/
+    .twlf_consultation{
+        padding: 40px 52px;
+    }
+    .get-consul h2{
+        font-size: 49px;
+        line-height: 59px;
+    }
+    .call-now a{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    /*whychoose*/
+    .twlf_why-choose {
+        padding: 150px 50px 60px;
+        top: -88px;
+    }
+    .twlf-support .left h3{
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .twlf-support.twlf_common {
+        margin: 50px 0;
+    }
+    /*core-client*/
+    .twlf-left-client-say h2 {
+        font-size: 54px;
+        line-height: 65px;
+    }
+    .twlf-left-client-say p{
+        width: auto;
+    }
+    .client-logo a{
+        margin: 0;
+    }
+    .twlf_right-client-review{
+        margin: 40px 0;
+    }
+    /*blog*/
+    .twlf_blog-top h2.twlf-common-title{
+        font-size: 85px;
+        line-height: 95px;
+    }
+    .view-btn a{
+        font-size: 30px;
+        padding: 18px 25px;
+    }
+    .blog-content{
+        padding: 40px;
+    }
+    .twlf_blog-box h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .twlf_blog-box p{
+        padding: 20px 0 30px;
+    }
+    .blog-thumb{
+        height: 230px;
+    }
+    /*map address*/
+    .twlf_address {
+        bottom: -20%;
+        left: 0;
+        flex-wrap: wrap;
+        right: 0;
+        padding-top: 30px;
+    }
+    .address-list {
+        border-right: none;
+        padding: 45px;
+        width: 37%;
+        background: #FFE8EE;
+        text-align: center;
+        margin: 0 15px 25px;
+    }
+    /*footer*/
+    .twlf_footer{
+        padding-top: 250px;
+    }
+    .foo-upper.twlf_common{
+        padding-bottom: 20px;
+    }
+    .fo-form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 20px 0;
+        align-items: baseline;
+    }
+    .fo-logo-zone .social-list a {
+        margin-right: 12px;
+    }
+    .fo-copy-write::before{
+        left: 50px;
+        right: 50px;
+    }
+    .fo-copy-write.twlf_common{
+        padding: 20px 50px 30px;
+    }
+}
+/*tab < 991*/
+@media (max-width: 991px) {
+    /*navbar*/
+    .nav-bar{
+        display: none;
+    }
+    .mean-container a.meanmenu-reveal{
+        width: 28px;
+        height: 28px;
+        color:#fff !important;
+    }
+    .mean-container a.meanmenu-reveal span {
+        margin-top: 8px;
+    }
+    .mean-container .mean-nav ul li a.mean-expand{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .mean-container .mean-nav ul li a{
+        font-size: 20px;
+        line-height: 18px;
+    }
+    .mean-container .mean-bar{
+        position: sticky;
+        top: 0;
+        background: rgba(188, 20, 62, 1);
+    }
+    .mean-nav .twlf-logo,.mean-nav .call-now {
+        text-align: center;
+        padding: 30px 0px;
+    }
+    .mean-nav .call-now p{
+        color:#fff;
+    }
+    /*common*/
+    .twlf_common-left,.twlf_common{
+        padding: 0 20px;
+    }
+    .twlf-content h3,.twlf-content h2.twlf-common-title,
+    .twlf-content p,.twlf-pana-left h2,.twlf-pana-left blockquote,
+    .twlf-pana-left p{
+        width: auto;
+    }
+    .twlf-pana-left h2.twlf-common-title, 
+    .twfl-cd-pratice h2.twlf-common-title, 
+    .twlf_choose-head h2.twlf-common-title,
+    .twlf-content h2.twlf-common-title{
+        font-size: 60px;
+        line-height: 62px;
+    }
+    /*header-down*/
+    .twlf_header-down{
+        text-align: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .twlf-social p{
+        left: 0;
+        transform: none;
+    }
+    .twlf-social p{
+        margin-top: 35px;
+    }
+    .soc-profile{
+        padding: 0;
+        flex-direction: row;
+    }
+    .soc-profile a {
+        margin: 0 15px;
+    }
+    .soc-profile::before{
+        display: none;
+    }
+    .twlf-content h3{
+        font-size: 28px;
+        line-height: 32px;
+    }
+    h2.twlf-common-title{
+        font-size: 60px;
+        line-height: 62px;
+    }
+    .twlf_header-down::after{
+        display: none;
+    }
+    .twlf-profile img{
+        max-width: 100%;
+    }
+    /*panaroma*/
+    section.twlf_common.twlf-panaroma{
+        flex-wrap: wrap;
+        padding: 30px;
+    }
+    .twlf-pana-right{
+        margin: 15px auto;
+    }
+    .twlf-pana-right img{
+        max-width: 100%;
+    }
+    .twlf-pana-left {
+        text-align: center;
+    }
+    /*criminal defense*/
+    .twlf-gallery {
+        columns: 2;
+        padding-top: 0;
+        margin-left: 30px;
+    }
+    .twfl-cd-pratice{
+        justify-content: center;
+        padding-top: 50px;
+    }
+    .twfl-cd-pratice h2 {
+        font-size: 64px;
+    }
+    /*consultation*/
+    .twlf_consultation{
+        padding: 15px;
+    }
+    section.twlf_common-m.twlf_consultation{
+        margin: 0 25px;
+    }
+    /*core-client*/
+    .twlf_core-client-feedback{
+        display: block;
+    }
+    .twlf-left-client-say {
+        padding: 100px 0 0;
+    }
+    /*why choos us*/
+    .twlf-support{
+        text-align: left;
+        margin: 30px 0;
+    }
+    .twlf-support .left h3{
+        font-size: 35px;
+        line-height: 36px;
+    }
+    .client-logo{
+        justify-content: center;
+    }
+    /*blog*/
+    .twlf_blog-top h2.twlf-common-title {
+        font-size: 60px;
+        line-height: 62px;
+    }
+    .twlf_blog{
+        margin-bottom: 30px;
+    }
+    .twlf_blog-box{
+        justify-content: center;
+    }
+    .blog-item{
+        width: 45%;
+    }
+    .blog-content {
+        padding: 35px;
+    }
+    .twlf_blog-box h2{
+        font-size: 20px;
+        line-height: 27px;
+    }
+    .twlf_blog-box p{
+        padding: 20px 0;
+    }
+    .blog-thumb{
+        height: auto;
+    }
+    /*address*/
+    .twlf_address{
+        position: relative;
+    }
+    .address-list,.twlf_address .address-list:last-child{
+        border: 1px solid rgba(225, 225, 225, 0.9);
+        margin: 15px 0;
+    }
+    .address-list {
+        width: 39%;
+        text-align: center;
+    }
+    .twlf_common-m {
+        margin: 0 10px;
+    }
+    .address-list h3{
+        font-size: 40px;
+        line-height: 45px;
+    }
+    .address-list h4{
+        font-size: 16px;
+    }
+    .address-list address{
+        font-size: 14px;
+    }
+    .address-list a.btn-dir{
+        font-size: 10px;
+    }
+    /*footer*/
+    .twlf_footer{
+        padding-top: 50px;
+    }
+    .foo-upper{
+        text-align: center;
+    }
+    .fo-logo-zone .social-list a{
+        margin-right: 16px;
+    }
+    .quick-link a{
+        width: 50%;
+    }
+    .quick-link.item {
+        margin: 30px 0;
+    }
+    .fo-form{
+        margin-bottom: 30px;
+    }
+    .fo-logo-zone p, .fo-form p{
+        width: auto;
+    }
+    .fo-copy-write::before{
+        left: 0;
+        right: 0;
+    }
+}
+/*mobil landscpa < 768*/
+@media (max-width: 768px) {
+    /*navbar*/
+    .nav-bar{
+        display: none;
+    }
+    /*common*/
+    .twlf_common-left,.twlf_common{
+        padding: 0 20px;
+    }
+    .twlf_header-down,.twlf-panaroma,
+    .twlf_blog-box,.twlf_address,
+    .twfl-cd-pratice,.twlf_consultation,.twlf-support{
+        flex-wrap: wrap;
+    }
+    .twlf-pana-left h2.twlf-common-title, 
+    .twfl-cd-pratice h2.twlf-common-title, 
+    .twlf_choose-head h2.twlf-common-title,
+    .twlf_blog-top h2.twlf-common-title{
+        font-size: 60px;
+        line-height: 62px;
+    }
+    /*header-down*/
+    .twlf_header-down{
+        text-align: center;
+        justify-content: center;
+    }
+    .twlf-social p{
+        left: 0;
+        transform: none;
+    }
+    .soc-profile{
+        padding: 0;
+        flex-direction: row;
+    }
+    .soc-profile a {
+        margin: 0 15px;
+    }
+    .soc-profile::before{
+        display: none;
+    }
+    .twlf-content h3,h2.twlf-common-title,
+    .twlf-content p,.twlf-pana-left p,
+    .twlf-pana-left blockquote,.twlf-pana-left h2.twlf-common-title,
+    .twlf-support .left,.twlf-support .right,
+    .twlf-left-client-say p,.foo-upper .item,.fo-form p{
+        width: auto;
+    }
+    .twlf-content h3{
+        font-size: 28px;
+        line-height: 32px;
+    }
+    h2.twlf-common-title{
+        font-size: 60px;
+        line-height: 62px;
+    }
+    .twlf_header-down::after{
+        display: none;
+    }
+    .twlf-profile img{
+        max-width: 100%;
+    }
+    /*panaroma*/
+    .twlf-pana-right{
+        margin: 20px auto;
+    }
+    .twlf-pana-right img{
+        max-width: 100%;
+    }
+    .twlf-pana-left h2.twlf-common-title{
+        font-size: 60px;
+        line-height: 62px;
+    }
+    .twlf-pana-left {
+        text-align: center;
+    }
+    /*criminal defense*/
+    .twlf-gallery {
+        columns: inherit;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .twfl-cd-pratice{
+        justify-content: center;
+        padding-top: 50px;
+    }
+    /*consultation*/
+    .twlf_consultation{
+        padding: 15px;
+    }
+    section.twlf_common-m.twlf_consultation{
+        margin: 0 25px;
+    }
+    /*core-client*/
+    .twlf_core-client-feedback{
+        display: block;
+    }
+    .twlf-left-client-say {
+        padding: 100px 0 0;
+    }
+    /*why choos us*/
+    .twlf_why-choose{
+        top: -130px;
+    }
+    .twlf-support{
+        display: block;
+        text-align: center;
+        margin: 30px 0;
+    }
+    .twlf-support .left h3{
+        font-size: 35px;
+        line-height: 36px;
+    }
+    .client-logo{
+        justify-content: center;
+    }
+    /*blog*/
+    .twlf_blog{
+        margin-bottom: 30px;
+    }
+    .twlf_blog-box{
+        justify-content: center;
+    }
+    .twlf_blog-box .blog-item:first-child{
+        margin-left: 0;
+    }
+    .twlf_blog-box .blog-item:last-child{
+        margin-right: 0;
+    }
+    .blog-content {
+        padding: 30px;
+    }
+    .twlf_blog-box h2{
+        font-size: 20px;
+        line-height: 27px;
+    }
+    .twlf_blog-box p{
+        padding: 20px 0;
+    }
+    .blog-thumb{
+        height: auto;
+    }
+    /*address*/
+    .twlf_address.twlf_common-m {
+        margin: 30px 40px;
+    }
+    .twlf_address{
+        position: relative;
+    }
+    .address-list,.twlf_address .address-list:last-child{
+        border: 1px solid rgba(225, 225, 225, 0.9);
+        margin: 15px 0;
+    }
+    .address-list{
+        width: 34%;
+        text-align: center;
+    }
+    .twlf_common-m {
+        margin: 0 100px;
+    }
+    .address-list h3{
+        font-size: 40px;
+        line-height: 45px;
+    }
+    .address-list h4{
+        font-size: 16px;
+    }
+    .address-list address{
+        font-size: 14px;
+    }
+    .address-list a.btn-dir{
+        font-size: 10px;
+    }
+    /*footer*/
+    .twlf_footer{
+        padding-top: 50px;
+    }
+    .foo-upper{
+        text-align: center;
+       display: block;
+    }
+    .quick-link a{
+        width: 50%;
+    }
+    .quick-link.item {
+        margin: 30px 0;
+    }
+    .fo-form{
+        margin-bottom: 30px;
+    }
+    .fo-logo-zone p{
+        width: auto;
+    }
+    .fo-copy-write::before{
+        left: 0;
+        right: 0;
+    }
+    .fo-copy-write.twlf_common {
+        display: block;
+    }
+}
+/*mobile < 525*/
+@media (max-width: 525px) {
+    /*common*/
+    .twlf-pana-left h2.twlf-common-title, 
+    .twfl-cd-pratice h2.twlf-common-title, 
+    .twlf_choose-head h2.twlf-common-title, 
+    .twlf-content h2.twlf-common-title,
+    h2.twlf-common-title,.twlf_blog-top h2.twlf-common-title {
+        font-size: 45px;
+        line-height: 55px;
+    }
+    /*client*/
+    .client-logo a {
+        margin: 10px 0;
+        width: 26%;
+    }
+   /*criminal defense*/
+   .g-cta a{
+    font-size: 28px;
+    }
+    /*blog*/
+    .twlf_blog-top h2 {
+        font-size: 45px;
+    }
+    .view-btn a{
+        font-size: 25px;
+        padding: 15px 18px;
+    }
+    .blog-item {
+        width: 100%;
+        margin: 0;
+    }
+    .blog-thumb{
+        height: auto;
+    }
+    /*address*/
+    .twlf_address.twlf_common-m{
+        margin: 0 30px;
+    }
+    .address-list {
+        width: 100%;
+    }
+    /*footer bottom*/
+    .fo-copy-write .left span, .fo-copy-write .left a{
+        margin: 7px;
+    }
+}
